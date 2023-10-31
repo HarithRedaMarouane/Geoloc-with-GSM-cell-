@@ -49,6 +49,7 @@ Exécutez `main.py` pour lancer l'application.
 
 ## Licence
 
-Ce projet est sous licence MIT. Voir le fichier [LICENCE](LICENCE) pour plus de détails.
+Ce projet est sous licence MIT. Voir le fichier [LICENCE](Geoloc-with-GSM-cell-
+/LICENSE) pour plus de détails.
 
 
