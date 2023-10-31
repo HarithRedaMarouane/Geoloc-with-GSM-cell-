@@ -34,7 +34,8 @@ Ce projet est une application qui utilise les données des tours cellulaires pou
 
 ## À propos du fichier CSV
 
-Le fichier CSV inclus n'est pas complet en raison de sa grande taille. Pour utiliser l'option de géolocalisation basée sur un fichier CSV, veuillez télécharger le fichier complet depuis le site de [OpenCellID](https://opencellid.org/) et le placer dans le répertoire de votre projet.
+Le fichier CSV inclus n'est pas complet en raison de sa grande taille.
+Pour utiliser l'option de géolocalisation basée sur un fichier CSV, veuillez télécharger le fichier complet depuis le site de [OpenCellID](https://opencellid.org/) et le placer dans le répertoire de votre projet.
 
 ## Installation
 
