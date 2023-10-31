@@ -15,9 +15,14 @@ Ce projet est une application qui utilise les données des tours cellulaires pou
 - **Géolocalisation basée sur les données des tours cellulaires** : Utilise les données des tours cellulaires pour trianguler ou estimer la position d'un appareil mobile.
 - **Affichage de la position estimée sur une carte** : La position estimée est affichée sur une carte interactive, permettant un aperçu visuel de la localisation.
 - **Support pour Google Maps et OpenStreetMap** : Possibilité de choisir entre différents fournisseurs de cartes, notamment Google Maps (normal et satellite) et OpenStreetMap.
+- ![Google Hearth](images/geoloc1.png)
+- ![Google maps](images/geoloc.png)
 - **Choix de la méthode de géolocalisation** :
     - **Triangulation** : Si cette option est activée, l'application utilisera la triangulation basée sur les données de trois tours ou plus pour estimer la position.
     - **Estimation basée sur la moyenne ** : Si la triangulation n'est pas utilisée, l'application estime la position en se basant sur les données de latitude et longitude.
+    - ![Triangulation](images/geoloc3.png)
+
+
 - **Choix de la source de données** :
     - **CSV local** : Utilise un fichier CSV local contenant des données sur les tours cellulaires pour la géolocalisation. Le fichier CSV doit être placé dans le répertoire du projet.
     - **API Unwired Labs** : Utilise l'API Unwired Labs pour obtenir des données sur les tours cellulaires.
