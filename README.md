@@ -14,11 +14,11 @@ Ce projet est une application qui utilise les données des tours cellulaires pou
 
 - **Géolocalisation basée sur les données des tours cellulaires** : Utilise les données des tours cellulaires pour trianguler ou estimer la position d'un appareil mobile.
 - **Affichage de la position estimée sur une carte** : La position estimée est affichée sur une carte interactive, permettant un aperçu visuel de la localisation.
-- 
+  
 ![Google maps](images/geoloc2.PNG)
 
 - **Support pour Google Maps et OpenStreetMap** : Possibilité de choisir entre différents fournisseurs de cartes, notamment Google Maps (normal et satellite) et OpenStreetMap.
--
+
 ![Google Hearth](images/geoloc1.PNG)
   
 - **Choix de la méthode de géolocalisation** :
