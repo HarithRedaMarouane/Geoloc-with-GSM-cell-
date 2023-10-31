@@ -1,0 +1,28 @@
+Le fichier txt contient des enregistrements de données d'un dispositif mobile identifié par son numéro IMEI. Chaque enregistrement donne des informations sur la tour de service à laquelle le dispositif est connecté et les tours voisines à proximité.
+
+Les détails sont les suivants:
+
+  IMEI: Il s'agit du numéro d'identification unique international de l'équipement mobile. Dans cet exemple, tous les enregistrements ont le même IMEI: 869387020011335, ce qui signifie qu'ils concernent tous le même dispositif.
+
+  service: Il s'agit de la tour de service à laquelle le dispositif est actuellement connecté.
+  Elle est identifiée par une chaîne telle que [208.20.0097.4e9a@-63] où:
+                                                                          208 est le code de pays mobile (MCC).
+                                                                          20 est le code du réseau mobile (MNC).
+                                                                          0097.4e9a sont les identifiants de la cellule (LAC et CID).
+                                                                          -63 est le niveau de signal reçu (RSSI), en dBm.
+                                                                            
+neighbors: Il s'agit d'une liste de tours voisines détectées par le dispositif. Chaque tour est identifiée de la même manière que la tour de service, avec son MCC, MNC, LAC, CID et RSSI.
+
+Dans l'exemple donné, il y a quatre enregistrements. Chacun d'eux donne la tour de service et trois tours voisines pour le dispositif avec l'IMEI mentionné.
+
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IMEI:869387020011335;service:[208.20.0097.4e9a@-63];neighbors:[208.20.0097.4f11@-74][208.20.0097.4f0f@-75][208.20.0097.4e9b@-78]
+
+IMEI:869387020011335;service:[208.20.0097.4e9b@-79];neighbors:[208.20.0097.4f11@-90][208.20.0097.4e9a@-91][208.20.0097.4f0f@-94]
+
+
+IMEI:869387020011335;service:[208.20.0097.4e9a@-85];neighbors:[208.20.0097.4e9b@-89][208.20.0097.4f0f@-94]
+
+IMEI:869387020011335;service:[208.20.0100.4ea8@-50];neighbors:[208.20.0100.4ea7@-83][208.20.0100.aadb@-90][208.20.0100.0036@-98]
