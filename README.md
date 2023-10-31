@@ -23,7 +23,7 @@ Ce projet est une application qui utilise les données des tours cellulaires pou
   
 - **Choix de la méthode de géolocalisation** :
     - **Triangulation** : Si cette option est activée, l'application utilisera la triangulation basée sur les données de trois tours ou plus pour estimer la position.
-    - Estimation basée sur la moyenne : Si la triangulation n'est pas utilisée, l'application estime la position en se basant sur les données de latitude et longitude.
+    - **Estimation basée sur la moyenne** : Si la triangulation n'est pas utilisée, l'application estime la position en se basant sur les données de latitude et longitude.
       
 ![Triangulation](images/geoloc3.PNG)
 
