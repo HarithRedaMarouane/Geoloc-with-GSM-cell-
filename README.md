@@ -18,14 +18,14 @@ Ce projet est une application qui utilise les données des tours cellulaires pou
 ![Google maps](images/geoloc2.PNG)
 
 - **Support pour Google Maps et OpenStreetMap** : Possibilité de choisir entre différents fournisseurs de cartes, notamment Google Maps (normal et satellite) et OpenStreetMap.
-- 
-  ![Google Hearth](images/geoloc1.PNG)
+-
+![Google Hearth](images/geoloc1.PNG)
   
 - **Choix de la méthode de géolocalisation** :
     - **Triangulation** : Si cette option est activée, l'application utilisera la triangulation basée sur les données de trois tours ou plus pour estimer la position.
     - **Estimation basée sur la moyenne ** : Si la triangulation n'est pas utilisée, l'application estime la position en se basant sur les données de latitude et longitude.
       
-      ![Triangulation](images/geoloc3.PNG)
+![Triangulation](images/geoloc3.PNG)
 
 
 - **Choix de la source de données** :
